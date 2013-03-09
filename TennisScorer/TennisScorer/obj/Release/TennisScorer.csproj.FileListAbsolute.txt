@@ -1,5 +1,0 @@
-C:\Users\Antoine\Desktop\TennisScorer\TennisScorer\TennisScorer\bin\Release\TennisScorer.dll
-C:\Users\Antoine\Desktop\TennisScorer\TennisScorer\TennisScorer\bin\Release\TennisScorer.pdb
-C:\Users\Antoine\Desktop\TennisScorer\TennisScorer\TennisScorer\obj\Release\TennisScorer.dll
-C:\Users\Antoine\Desktop\TennisScorer\TennisScorer\TennisScorer\obj\Release\TennisScorer.pdb
-C:\Users\Antoine\Desktop\TennisScorer\TennisScorer\TennisScorer\obj\Release\TennisScorer.csprojResolveAssemblyReference.cache
