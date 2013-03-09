@@ -37,14 +37,14 @@
                 switch (currentScore)
                 {
                     case 'A':
-                        testee.Scores(Player.PlayerA);
+                        testee.AchievesScore(Player.PlayerA);
                         break;
                     case 'B':
-                        testee.Scores(Player.PlayerB);
+                        testee.AchievesScore(Player.PlayerB);
                         break;
                 }
             }
-            testee.Score.Should().Be(expectedScores);
+            testee.GameScore.Should().Be(expectedScores);
         }
     }
 }

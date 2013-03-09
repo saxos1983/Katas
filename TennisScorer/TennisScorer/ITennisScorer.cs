@@ -1,13 +1,10 @@
 ﻿namespace Tennis
 {
-    /// <summary>
-    /// The TennisScorer interface.
-    /// </summary>
     public interface ITennisScorer
     {
-        void Scores(Player player);
+        void AchievesScore(Player player);
 
-        string Score { get; }
+        string GameScore { get; }
     }
 
     public enum Player

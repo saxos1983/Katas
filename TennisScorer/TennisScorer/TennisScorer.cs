@@ -2,8 +2,8 @@
 {
     public class TennisScorer : ITennisScorer
     {
-        private int ScoreA;
-        private int ScoreB;
+        private int scoreA;
+        private int scoreB;
 
         private const string GameA = "gameA";
         private const string GameB = "gameB";
@@ -19,31 +19,31 @@
                 new[] { GameB,   GameB,     GameB,      AdvantageB}
             };
 
-        public void Scores(Player player)
+        public void AchievesScore(Player player)
         {
             switch (player)
             {
                 case Player.PlayerA:
-                    ScorePlayer(ref ScoreA, ref ScoreB);
+                    UpdateGameScore(ref scoreA, ref scoreB);
                     break;
                 case Player.PlayerB:
-                    ScorePlayer(ref ScoreB, ref ScoreA);
+                    UpdateGameScore(ref scoreB, ref scoreA);
                     break;
             }
         }
 
-        public string Score
+        public string GameScore
         {
-            get { return PlayerScores[ScoreB][ScoreA]; }
+            get { return PlayerScores[scoreB][scoreA]; }
         }
 
-        private void ScorePlayer(ref int playerToAddScore, ref int opponentScore)
+        private void UpdateGameScore(ref int playerToAddScore, ref int opponentScore)
         {
-            if (Score == AdvantageA || Score == AdvantageB)
+            if (GameScore == AdvantageA || GameScore == AdvantageB)
             {
                 opponentScore--;
             }
-            else if (Score != GameA && Score != GameB)
+            else if (GameScore != GameA && GameScore != GameB)
             {
                 playerToAddScore++;
             }
