@@ -1,0 +1,9 @@
+C:\Users\antoinehauck\Desktop\TennisScorer\TennisScorer\bin\Debug\TennisScorer.pdb
+C:\Users\antoinehauck\Desktop\TennisScorer\TennisScorer\obj\Debug\TennisScorer.csprojResolveAssemblyReference.cache
+C:\Users\antoinehauck\Desktop\TennisScorer\TennisScorer\obj\Debug\TennisScorer.pdb
+C:\Users\antoinehauck\Desktop\TennisScorer\TennisScorer\bin\Debug\TennisScorer.dll
+C:\Users\antoinehauck\Desktop\TennisScorer\TennisScorer\obj\Debug\TennisScorer.dll
+C:\Users\Antoine\Desktop\TennisScorer\TennisScorer\TennisScorer\bin\Debug\TennisScorer.dll
+C:\Users\Antoine\Desktop\TennisScorer\TennisScorer\TennisScorer\bin\Debug\TennisScorer.pdb
+C:\Users\Antoine\Desktop\TennisScorer\TennisScorer\TennisScorer\obj\Debug\TennisScorer.dll
+C:\Users\Antoine\Desktop\TennisScorer\TennisScorer\TennisScorer\obj\Debug\TennisScorer.pdb
