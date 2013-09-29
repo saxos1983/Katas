@@ -6,14 +6,6 @@
     [TestFixture]
     public class DecimalToRomanConverterTest
     {
-        private IDecimalToRomanConverter testee;
-
-        [SetUp]
-        public void SetUp()
-        {
-            this.testee = new DecimalToRomanConverter();
-        }
-
         [TestCase(1, "I", TestName = "1 = I")]
         [TestCase(5, "V", TestName = "5 = V")]
         [TestCase(10, "X", TestName = "10 = X")]
@@ -23,8 +15,7 @@
         [TestCase(1000, "M", TestName = "1000 = M")]
         public void ShouldConvertToSingleRomanLetter(int decimalNumber, string expectedRomanNumber)
         {
-            var result = this.testee.Convert(decimalNumber);
-            result.Should().Be(expectedRomanNumber);
+            AssertEquals(decimalNumber, expectedRomanNumber);
         }
 
         [TestCase(3, "III", TestName = "3 = III")]
@@ -33,8 +24,7 @@
         [TestCase(3000, "MMM", TestName = "3000 = MMM")]
         public void ShouldConvertToThreeEqualRomanLetters(int decimalNumber, string expectedRomanNumber)
         {
-            var result = this.testee.Convert(decimalNumber);
-            result.Should().Be(expectedRomanNumber);
+            AssertEquals(decimalNumber, expectedRomanNumber);
         }
 
         [TestCase(2, "II", TestName = "2 = II")]
@@ -43,8 +33,7 @@
         [TestCase(2000, "MM", TestName = "2000 = MM")]
         public void ShouldConvertToTwoEqualRomanLetters(int decimalNumber, string expectedRomanNumber)
         {
-            var result = this.testee.Convert(decimalNumber);
-            result.Should().Be(expectedRomanNumber);
+            AssertEquals(decimalNumber, expectedRomanNumber);
         }
 
         [TestCase(8, "VIII", TestName = "8 = VIII")]
@@ -52,17 +41,7 @@
         [TestCase(800, "DCCC", TestName = "800 = DCCC")]
         public void ShouldConvertToOneAndThreeEqualRomanLetters(int decimalNumber, string expectedRomanNumber)
         {
-            var result = this.testee.Convert(decimalNumber);
-            result.Should().Be(expectedRomanNumber);
-        }
-
-        [TestCase(25, "XVVV", TestName = "25 != XVVV")]
-        [TestCase(250, "CLLL", TestName = "250 != CLLL")]
-        [TestCase(2500, "MDDD", TestName = "2500 != MDDD")]
-        public void ShouldNotConvertToOneAndThreeEqualRomanLetters(int decimalNumber, string expectedRomanNumber)
-        {
-            var result = this.testee.Convert(decimalNumber);
-            result.Should().NotBe(expectedRomanNumber);
+            AssertEquals(decimalNumber, expectedRomanNumber);
         }
 
         [TestCase(25, "XXV", TestName = "25 = XXV")]
@@ -70,26 +49,18 @@
         [TestCase(2500, "MMD", TestName = "2500 = MMD")]
         public void ShouldConvertToTwoEqualAndOneRomanLetter(int decimalNumber, string expectedRomanNumber)
         {
-            var result = this.testee.Convert(decimalNumber);
-            result.Should().Be(expectedRomanNumber);
+            AssertEquals(decimalNumber, expectedRomanNumber);
         }
 
-        [TestCase(11, "VVI", TestName = "11 != VVI")]
-        [TestCase(110, "LLX", TestName = "110 != LLX")]
-        [TestCase(1100, "DDC", TestName = "1100 != DDC")]
-        public void ShouldNotConvertToTwoEqualAndOneRomanLetter(int decimalNumber, string expectedRomanNumber)
-        {
-            var result = this.testee.Convert(decimalNumber);
-            result.Should().NotBe(expectedRomanNumber);
-        }
-
+        [TestCase(6, "VI", TestName = "6 = VI")]
+        [TestCase(60, "LX", TestName = "60 = LX")]
+        [TestCase(600, "DC", TestName = "600 = DC")]
         [TestCase(11, "XI", TestName = "11 = XI")]
         [TestCase(110, "CX", TestName = "110 = CX")]
         [TestCase(1100, "MC", TestName = "1100 = MC")]
         public void ShouldConvertToTwoCombinedRomanLetters(int decimalNumber, string expectedRomanNumber)
         {
-            var result = this.testee.Convert(decimalNumber);
-            result.Should().Be(expectedRomanNumber);
+            AssertEquals(decimalNumber, expectedRomanNumber);
         }
 
         [TestCase(4, "IV", TestName = "4 = IV")]
@@ -100,8 +71,22 @@
         [TestCase(900, "CM", TestName = "900 = CM")]
         public void ShouldHandleSubstractionProperly(int decimalNumber, string expectedRomanNumber)
         {
-            var result = this.testee.Convert(decimalNumber);
-            result.Should().Be(expectedRomanNumber);
+            AssertEquals(decimalNumber, expectedRomanNumber);
+        }
+        
+        [TestCase(23, "XXIII", TestName = "23 = XXIII")]
+        [TestCase(28, "XXVIII", TestName = "28 = XXVIII")]
+        [TestCase(59, "LIX", TestName = "59 = LIX")]
+        [TestCase(2840, "MMDCCCXL", TestName = "2840 = MMDCCCXL")]
+        [TestCase(1949, "MCMXLIX", TestName = "1949 = MCMXLIX")]
+        public void ShouldConvertToCombinedRomanLetters(int decimalNumber, string expectedRomanNumber)
+        {
+            AssertEquals(decimalNumber, expectedRomanNumber);
+        }
+
+        private static void AssertEquals(int decimalNumber, string expectedRomanNumber)
+        {
+            decimalNumber.ToRoman().Should().Be(expectedRomanNumber);
         }
     }
 }
