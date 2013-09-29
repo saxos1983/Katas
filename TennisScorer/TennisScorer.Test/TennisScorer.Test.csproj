@@ -65,9 +65,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\TennisScorer\TennisScorer.csproj">
       <Project>{3AD9A4A5-0590-4A1D-9329-A8C39D08A7D4}</Project>
       <Name>TennisScorer</Name>

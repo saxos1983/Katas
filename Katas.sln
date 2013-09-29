@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TennisScorer", "TennisScorer\TennisScorer\TennisScorer.csproj", "{3AD9A4A5-0590-4A1D-9329-A8C39D08A7D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TennisScorer.Test", "TennisScorer\TennisScorer.Test\TennisScorer.Test.csproj", "{70FCDB72-409E-47E4-BDFD-C26BB9CA2E7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TennisScorer", "TennisScorer", "{FBC44E05-45E4-48B6-A136-26B9276ADD90}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RomanNumerals", "RomanNumerals", "{8C37170E-D288-4553-B259-EE743932FA6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumerals", "RomanNumerals\RomanNumerals\RomanNumerals.csproj", "{3AF00E33-56C5-42B6-8BB7-60E9E2A5F76F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumerals.Specs", "RomanNumerals\RomanNumerals.Specs\RomanNumerals.Specs.csproj", "{63427FE6-CC33-4561-BB5D-0737C8351DD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumerals.Tests", "RomanNumerals\RomanNumerals.Tests\RomanNumerals.Tests.csproj", "{3A31476B-AD56-46C3-B767-D5AD69B30275}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AD9A4A5-0590-4A1D-9329-A8C39D08A7D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AD9A4A5-0590-4A1D-9329-A8C39D08A7D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AD9A4A5-0590-4A1D-9329-A8C39D08A7D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AD9A4A5-0590-4A1D-9329-A8C39D08A7D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70FCDB72-409E-47E4-BDFD-C26BB9CA2E7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70FCDB72-409E-47E4-BDFD-C26BB9CA2E7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70FCDB72-409E-47E4-BDFD-C26BB9CA2E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70FCDB72-409E-47E4-BDFD-C26BB9CA2E7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AF00E33-56C5-42B6-8BB7-60E9E2A5F76F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AF00E33-56C5-42B6-8BB7-60E9E2A5F76F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AF00E33-56C5-42B6-8BB7-60E9E2A5F76F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AF00E33-56C5-42B6-8BB7-60E9E2A5F76F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63427FE6-CC33-4561-BB5D-0737C8351DD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63427FE6-CC33-4561-BB5D-0737C8351DD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63427FE6-CC33-4561-BB5D-0737C8351DD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63427FE6-CC33-4561-BB5D-0737C8351DD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A31476B-AD56-46C3-B767-D5AD69B30275}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A31476B-AD56-46C3-B767-D5AD69B30275}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A31476B-AD56-46C3-B767-D5AD69B30275}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A31476B-AD56-46C3-B767-D5AD69B30275}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3AD9A4A5-0590-4A1D-9329-A8C39D08A7D4} = {FBC44E05-45E4-48B6-A136-26B9276ADD90}
+		{70FCDB72-409E-47E4-BDFD-C26BB9CA2E7F} = {FBC44E05-45E4-48B6-A136-26B9276ADD90}
+		{3AF00E33-56C5-42B6-8BB7-60E9E2A5F76F} = {8C37170E-D288-4553-B259-EE743932FA6A}
+		{63427FE6-CC33-4561-BB5D-0737C8351DD5} = {8C37170E-D288-4553-B259-EE743932FA6A}
+		{3A31476B-AD56-46C3-B767-D5AD69B30275} = {8C37170E-D288-4553-B259-EE743932FA6A}
+	EndGlobalSection
+EndGlobal
