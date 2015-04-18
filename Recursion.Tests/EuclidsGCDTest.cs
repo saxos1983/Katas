@@ -15,7 +15,8 @@ namespace Recursion.Tests
         [TestCase(-105, 252, 21)]
         [TestCase(-105, -252, 21)]
         [TestCase(17, 31, 1)]
-        public void Fibonacci_GivenCount_CorrectFibonacciResult(int number1, int number2, int expectedResult)
+        [TestCase(0, 0, 0)]
+        public void GCD_GivenNumbers_CorrectGCDResult(int number1, int number2, int expectedResult)
         {
             var result = EuclidsGCD.GCD(number1, number2);
 

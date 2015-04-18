@@ -22,10 +22,6 @@
             {
                 return y;
             }
-            if (y == 0)
-            {
-                return x;
-            }
 
             int max = Math.Abs(Math.Max(x, y));
             int min = Math.Abs(Math.Min(x, y));
