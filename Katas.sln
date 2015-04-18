@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TennisScorer", "TennisScorer\TennisScorer\TennisScorer.csproj", "{3AD9A4A5-0590-4A1D-9329-A8C39D08A7D4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TennisScorer.Test", "TennisScorer\TennisScorer.Test\TennisScorer.Test.csproj", "{70FCDB72-409E-47E4-BDFD-C26BB9CA2E7F}"
@@ -14,6 +16,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumerals.Specs", "RomanNumerals\RomanNumerals.Specs\RomanNumerals.Specs.csproj", "{63427FE6-CC33-4561-BB5D-0737C8351DD5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumerals.Tests", "RomanNumerals\RomanNumerals.Tests\RomanNumerals.Tests.csproj", "{3A31476B-AD56-46C3-B767-D5AD69B30275}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Recursion", "Recursion", "{6E6D17E3-AEC0-4773-B142-152691A43C97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursion", "Recursion\Recursion.csproj", "{A939A4C0-A120-428E-A8B2-0256E4112147}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursion.Tests", "Recursion.Tests\Recursion.Tests.csproj", "{9496B35A-32A8-4178-ADD9-AEDCB7F2FBEF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +49,14 @@ Global
 		{3A31476B-AD56-46C3-B767-D5AD69B30275}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A31476B-AD56-46C3-B767-D5AD69B30275}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A31476B-AD56-46C3-B767-D5AD69B30275}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A939A4C0-A120-428E-A8B2-0256E4112147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A939A4C0-A120-428E-A8B2-0256E4112147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A939A4C0-A120-428E-A8B2-0256E4112147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A939A4C0-A120-428E-A8B2-0256E4112147}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9496B35A-32A8-4178-ADD9-AEDCB7F2FBEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9496B35A-32A8-4178-ADD9-AEDCB7F2FBEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9496B35A-32A8-4178-ADD9-AEDCB7F2FBEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9496B35A-32A8-4178-ADD9-AEDCB7F2FBEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,5 +67,7 @@ Global
 		{3AF00E33-56C5-42B6-8BB7-60E9E2A5F76F} = {8C37170E-D288-4553-B259-EE743932FA6A}
 		{63427FE6-CC33-4561-BB5D-0737C8351DD5} = {8C37170E-D288-4553-B259-EE743932FA6A}
 		{3A31476B-AD56-46C3-B767-D5AD69B30275} = {8C37170E-D288-4553-B259-EE743932FA6A}
+		{A939A4C0-A120-428E-A8B2-0256E4112147} = {6E6D17E3-AEC0-4773-B142-152691A43C97}
+		{9496B35A-32A8-4178-ADD9-AEDCB7F2FBEF} = {6E6D17E3-AEC0-4773-B142-152691A43C97}
 	EndGlobalSection
 EndGlobal
