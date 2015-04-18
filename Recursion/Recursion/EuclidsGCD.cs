@@ -8,7 +8,7 @@
     {
         static void Main()
         {
-            Console.Write("Euclids Greatest Common Divisor (GCD)");
+            Console.WriteLine("Euclids Greatest Common Divisor (GCD)");
             Console.Write("Please enter the first number: ");
             var number1 = int.Parse(Console.ReadLine());
             Console.Write("Please enter the first number: ");

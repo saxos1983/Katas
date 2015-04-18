@@ -19,9 +19,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumerals.Tests", "Roma
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Recursion", "Recursion", "{6E6D17E3-AEC0-4773-B142-152691A43C97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursion", "Recursion\Recursion.csproj", "{A939A4C0-A120-428E-A8B2-0256E4112147}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursion", "Recursion\Recursion\Recursion.csproj", "{A939A4C0-A120-428E-A8B2-0256E4112147}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursion.Tests", "Recursion.Tests\Recursion.Tests.csproj", "{9496B35A-32A8-4178-ADD9-AEDCB7F2FBEF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursion.Tests", "Recursion\Recursion.Tests\Recursion.Tests.csproj", "{9496B35A-32A8-4178-ADD9-AEDCB7F2FBEF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
